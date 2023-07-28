@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-
+import { Link } from "react-router-dom";
 import { MdWork } from "react-icons/md";
 import { GoProjectSymlink } from "react-icons/go";
 import { TbZodiacCapricorn } from "react-icons/tb";
@@ -48,9 +48,9 @@ const About = () => {
             maiores debitis. Quas numquam fugiat deleniti velit sit.
           </p>
 
-          <a href="#contact" className="btn btn-primary">
-            Let's talk
-          </a>
+          <Link to="/contact" className="btn btn-primary">
+            Lets talk
+          </Link>
         </div>
       </div>
     </section>

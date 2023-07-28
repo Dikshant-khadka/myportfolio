@@ -1,31 +1,32 @@
-import React from 'react';
-import './index.css'
-import Header from './component/header/Header';
-import Nav from './component/nav/Nav';
-import About from './component/about/About';
-import Services from './component/services/Services';
-import Experience from './component/experience/Experience'
-import Portfolio from './component/portfolio/Portfolio'
-import Testimonial from './component/testimonial/Testimonial'
-import Contact from './component/contact/Contact'
-import Footer from './component/footer/Footer'
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+import "./index.css";
+import Header from "./component/header/Header";
+import Nav from "./component/nav/Nav";
+import About from "./component/about/About";
 
+import Experience from "./component/experience/Experience";
+import Projects from "./component/projects/Projects";
+
+import Contact from "./component/contact/Contact";
 
 const App = () => {
   return (
-   <>
-        <Header />
+    <>
+      <BrowserRouter>
         <Nav />
-        <About />
-        <Experience />
-        <Services />
-        <Portfolio />
-        <Testimonial />
-        <Contact />
-        <Footer />
-   </>
-  )
-}
+
+        <Routes>
+          <Route path="/" element={<Header />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/skills" element={<Experience />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </BrowserRouter>
+    </>
+  );
+};
 
 export default App;

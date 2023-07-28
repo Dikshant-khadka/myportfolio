@@ -1,5 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import "./nav.css";
+
 import {
   AiOutlineHome,
   AiOutlineUser,
@@ -11,45 +14,48 @@ import { MdContactMail } from "react-icons/md";
 import { useState } from "react";
 
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState("#");
+  const [activeNav, setActiveNav] = useState("/");
+
   return (
     <nav>
-      <a
-        href="#"
-        onClick={() => setActiveNav("#")}
-        className={activeNav === "#" ? "active" : ""}
+      <Link
+        to="/"
+        onClick={() => setActiveNav("/")}
+        className={activeNav === "/" ? "active" : ""}
       >
         <AiOutlineHome />
-      </a>
-      <a
-        href="#about"
-        onClick={() => setActiveNav("#about")}
-        className={activeNav === "#about" ? "active" : ""}
+      </Link>
+      <Link
+        to="/about"
+        onClick={() => setActiveNav("/about")}
+        className={activeNav === "/about" ? "active" : ""}
       >
         <AiOutlineUser />
-      </a>
-      <a
-        href="#skills"
-        onClick={() => setActiveNav("#skills")}
-        className={activeNav === "#skills" ? "active" : ""}
+      </Link>
+
+      <Link
+        to="/skills"
+        onClick={() => setActiveNav("/skills")}
+        className={activeNav === "/skills" ? "active" : ""}
       >
         <BsCodeSlash />
-      </a>
-      <a
-        href="#resume"
-        onClick={() => setActiveNav("#resume")}
-        className={activeNav === "#resume" ? "active" : ""}
+      </Link>
+
+      <Link
+        to="/projects"
+        onClick={() => setActiveNav("/projects")}
+        className={activeNav === "/projects" ? "active" : ""}
       >
-        {" "}
-        <AiOutlinePaperClip />{" "}
-      </a>
-      <a
-        href="#contact"
-        onClick={() => setActiveNav("#contact")}
-        className={activeNav === "#contact" ? "active" : ""}
+        <AiOutlinePaperClip />
+      </Link>
+
+      <Link
+        to="/contact"
+        onClick={() => setActiveNav("/contact")}
+        className={activeNav === "/contact" ? "active" : ""}
       >
-        <MdContactMail />{" "}
-      </a>
+        <MdContactMail />
+      </Link>
     </nav>
   );
 };
