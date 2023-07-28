@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.9138cd33.css",
-    "main.js": "/myportfolio/static/js/main.a4db3f54.js",
-    "static/media/me.png": "/myportfolio/static/media/me.e952172c1630791dd80f.png",
-    "static/media/me-about.jpg": "/myportfolio/static/media/me-about.187ed6cae23a81eca710.jpg",
-    "static/media/cv.pdf": "/myportfolio/static/media/cv.1676dcdc83730930d888.pdf",
-    "static/media/pig-game.png": "/myportfolio/static/media/pig-game.fc41b9f07205344e6ffd.png",
-    "static/media/Drum-Kit.png": "/myportfolio/static/media/Drum-Kit.6d652476fe8d95eeaff7.png",
-    "static/media/modal-window.png": "/myportfolio/static/media/modal-window.7bded00136cce9293d8d.png",
-    "static/media/dice-game.png": "/myportfolio/static/media/dice-game.dc6c329cb2ad8ac348b2.png",
-    "static/media/counter.png": "/myportfolio/static/media/counter.239a21d7af248d7d095e.png",
-    "static/media/guessMyNumber.png": "/myportfolio/static/media/guessMyNumber.b689c4d6333e75875106.png",
-    "index.html": "/myportfolio/index.html",
-    "main.9138cd33.css.map": "/myportfolio/static/css/main.9138cd33.css.map",
-    "main.a4db3f54.js.map": "/myportfolio/static/js/main.a4db3f54.js.map"
+    "main.css": "/static/css/main.9138cd33.css",
+    "main.js": "/static/js/main.da96d7ae.js",
+    "static/media/me.png": "/static/media/me.e952172c1630791dd80f.png",
+    "static/media/me-about.jpg": "/static/media/me-about.187ed6cae23a81eca710.jpg",
+    "static/media/cv.pdf": "/static/media/cv.1676dcdc83730930d888.pdf",
+    "static/media/pig-game.png": "/static/media/pig-game.fc41b9f07205344e6ffd.png",
+    "static/media/Drum-Kit.png": "/static/media/Drum-Kit.6d652476fe8d95eeaff7.png",
+    "static/media/modal-window.png": "/static/media/modal-window.7bded00136cce9293d8d.png",
+    "static/media/dice-game.png": "/static/media/dice-game.dc6c329cb2ad8ac348b2.png",
+    "static/media/counter.png": "/static/media/counter.239a21d7af248d7d095e.png",
+    "static/media/guessMyNumber.png": "/static/media/guessMyNumber.b689c4d6333e75875106.png",
+    "index.html": "/index.html",
+    "main.9138cd33.css.map": "/static/css/main.9138cd33.css.map",
+    "main.da96d7ae.js.map": "/static/js/main.da96d7ae.js.map"
   },
   "entrypoints": [
     "static/css/main.9138cd33.css",
-    "static/js/main.a4db3f54.js"
+    "static/js/main.da96d7ae.js"
   ]
 }
